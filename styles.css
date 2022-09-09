@@ -1,0 +1,53 @@
+
+h3,h1 { color: blue;
+      font-size:60px
+    }
+.header { 
+      text-align: center;
+  font-family: "Lucida Console", monospace;
+  
+}
+
+.line {
+  
+  background: ghostwhite; 
+            font-size: 20px; 
+            padding: 10px; 
+            border: 1px solid lightgray; 
+            margin: 10px;
+
+}
+
+body { background-color:#F8F8FF
+  
+  
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+       width:350px;
+       height:300px;
+  
+}
+
+h1{
+  
+  color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  75%  {color: black;}
+  100% {color: green;}
+  
+}
+
+
